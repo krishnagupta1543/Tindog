@@ -1,0 +1,153 @@
+body{
+    text-align: center;
+}
+
+/* headings */
+.big-heading, .cta-heading{
+    font-size:3.5rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+.container-fluid{
+    padding:7% 15%;
+}
+.nav-link{
+    font-size:1.3rem;
+    margin-left: 2rem;
+}
+.coloured-section{
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 66, 66);
+}
+.white-section{
+    color: black;
+    background-color: white;
+}
+.section-heading{
+    font-size:3rem;
+    line-height: 1.5;
+}
+.feature-titles{
+    font-size:1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+h1,h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* title */
+#title .container-fluid{
+    text-align: left;
+    padding: 5% 15%;
+}
+#title .title-content button{
+    margin-right: 2%;
+}
+.navbar-title .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+.title-img{
+    width: 30%;
+    transform: rotate(25deg);
+    padding: 5%;
+    position: absolute;
+    top:8rem;
+}
+@media (max-width:1001px) { 
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        width: 50%;
+        padding: 5%;
+        position: static;
+        top:8rem;
+        float: none;
+        transform: none;
+
+    }
+}
+
+/* feature section */
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5;
+}
+section{
+    z-index: 2;
+}
+#features .feature-box{
+    padding: 5%;
+}
+.feature-icon{
+    color: rgb(248, 66, 66);
+    padding: 5%;
+}
+/* use pseudo class hover */
+.feature-icon:hover{
+    color: rgb(242, 48, 48);
+}
+
+/* testimonial section */
+#testimonials{
+    background-color: #f96666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-size:3rem;
+}
+#testimonials .testimonials-img{
+    width: 15%;
+    border-radius:100%;
+    margin:3%;
+}
+
+/* press */
+
+#press{
+    background-color:  #f96666;
+}
+#press {
+    padding-bottom: 5%;
+}
+#press img{
+    width: 20%;
+    padding:15px;
+}
+#testimonials button{
+    padding:5%;
+}
+
+/* pricing */
+
+#pricing .card{
+    margin:3% 3%;
+}
+
+/* cta section */
+#cta{
+    padding:7% 15%;
+    margin: auto;
+    background-color:  #f96666;
+}
+#cta button{
+    margin: 1%;
+}
+
+/* footer  */
+#footer i{
+    font-size: 1rem;
+    padding:1%;
+    color: #5c5c5c;
+}
+#footer i:hover{
+    color: black;
+}
